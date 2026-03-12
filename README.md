@@ -25,7 +25,7 @@ https://github.com/sudhanshu2027/plant-diseases-detection
 
 Upload a plant leaf image and the model predicts the disease in real time.
 
-*(Add screenshots here later if you want)*
+![Plant Disease Detection Demo](assets/demo.png)
 
 ---
 
@@ -78,6 +78,9 @@ Classes | 38
 ```text
 plant-diseases-detection
 │
+├── assets
+│   └── demo.png
+│
 ├── app
 │   ├── main.py
 │   ├── class_indices.json
@@ -110,12 +113,22 @@ https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset
 
 Clone the repository
 
+```bash
+git clone https://github.com/sudhanshu2027/plant-diseases-detection.git
+cd plant-diseases-detection
+```
 
 Install dependencies
 
+```bash
+pip install -r requirements.txt
+```
 
 Run the application
 
+```bash
+streamlit run main.py
+```
 
 ---
 
@@ -128,16 +141,6 @@ Run the application
 
 ---
 
-# 📈 Future Improvements
-
-- Mobile app integration
-- Disease treatment suggestions
-- Top-3 prediction probabilities
-- Improved UI
-- Larger dataset training
-
----
-
 # 👨‍💻 Author
 
 **Sudhanshu Kumar**
@@ -147,7 +150,6 @@ https://github.com/sudhanshu2027
 
 LinkedIn  
 https://www.linkedin.com/in/sudhanshu2027/
-
 
 ---
 
