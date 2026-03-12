@@ -1,7 +1,154 @@
 # plant-disease-prediction-cnn-deep-leanring-project
-This repository is about building an Image classifier CNN with Python on Plant Disease Prediction.
 
-Kaggle Dataset Link: https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset
+# 🌿 Plant Disease Detection using Deep Learning
 
-Trained Model Link: [[https://drive.google.com/file/d/1i466c4XOs048Q54EPCqgzoG8zWcARnrj/view?usp=sharing](https://drive.google.com/file/d/1rKh-IElSdHTqax7XdfSdZTn-r8T_qWPf/view?usp=sharing)](https://drive.google.com/file/d/1rKh-IElSdHTqax7XdfSdZTn-r8T_qWPf/view?usp=drive_link)https://drive.google.com/file/d/1rKh-IElSdHTqax7XdfSdZTn-r8T_qWPf/view?usp=drive_link
+A deep learning based web application that detects plant diseases from leaf images.  
+The system uses a Convolutional Neural Network (CNN) trained on the **PlantVillage dataset** to classify plant diseases across **38 classes** with high accuracy.
 
+---
+
+# 🚀 Live Demo
+
+🔗 **Application:**  
+https://plant-diseases-detection-8xlw.onrender.com
+
+---
+
+# 💻 GitHub Repository
+
+🔗 **Source Code:**  
+https://github.com/sudhanshu2027/plant-diseases-detection
+
+---
+
+# 📸 Demo
+
+Upload a plant leaf image and the model predicts the disease in real time.
+
+*(Add screenshots here later if you want)*
+
+---
+
+# 📌 Features
+
+- 🌱 Detects plant diseases from leaf images
+- 🧠 Deep Learning based classification
+- 📊 Supports **38 plant disease categories**
+- ⚡ Fast prediction using trained CNN model
+- 🌐 User-friendly web interface using **Streamlit**
+- 📈 High accuracy model for disease detection
+
+---
+
+# 🧠 Model Details
+
+| Parameter | Value |
+|-----------|------|
+Model Type | Convolutional Neural Network (CNN)
+Framework | TensorFlow / Keras
+Optimizer | Adam
+Training Accuracy | **97%**
+Validation Accuracy | **96.5%**
+Dataset | PlantVillage Dataset
+Classes | 38
+
+---
+
+# 🛠️ Tech Stack
+
+### Machine Learning / Deep Learning
+- Python
+- TensorFlow
+- Keras
+- NumPy
+- Pillow
+
+### Web Application
+- Streamlit
+
+### Tools
+- Git
+- GitHub
+- Docker
+
+---
+
+## 📂 Project Structure
+
+```text
+plant-diseases-detection
+│
+├── app
+│   ├── main.py
+│   ├── class_indices.json
+│   ├── requirements.txt
+│   └── trained_model
+│        └── plant_disease_prediction_model1.h5
+│
+├── model_training_notebook
+│   └── plant_disease_detection.ipynb
+│
+├── test_images
+│
+├── Dockerfile
+├── README.md
+└── .gitignore
+```
+
+---
+
+# 🧪 Dataset
+
+The model was trained using the **PlantVillage dataset**.
+
+Dataset link:  
+https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset
+
+---
+
+# ⚙️ Installation
+
+Clone the repository
+
+
+Install dependencies
+
+
+Run the application
+
+
+---
+
+# 🖼️ How It Works
+
+1️⃣ Upload a plant leaf image  
+2️⃣ Image preprocessing is applied  
+3️⃣ The trained CNN model predicts the disease  
+4️⃣ The predicted class is displayed
+
+---
+
+# 📈 Future Improvements
+
+- Mobile app integration
+- Disease treatment suggestions
+- Top-3 prediction probabilities
+- Improved UI
+- Larger dataset training
+
+---
+
+# 👨‍💻 Author
+
+**Sudhanshu Kumar**
+
+GitHub  
+https://github.com/sudhanshu2027
+
+LinkedIn  
+https://www.linkedin.com/in/sudhanshu2027/
+
+
+---
+
+⭐ If you like this project, consider giving it a **star on GitHub**.
