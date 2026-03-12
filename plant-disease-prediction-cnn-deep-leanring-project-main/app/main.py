@@ -15,7 +15,7 @@ from tensorflow.keras.applications.resnet50 import preprocess_input
 
 working_dir = os.path.dirname(os.path.abspath(__file__))
 
-model_path = r"D:\plant_disease_prediction_model1.h5"
+model_path = f"{working_dir}/trained_model/plant_disease_prediction_model1.h5"
 
 class_indices_path = os.path.join(working_dir, "class_indices.json")
 
