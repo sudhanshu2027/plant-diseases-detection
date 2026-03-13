@@ -9,6 +9,12 @@ import streamlit as st
 
 from keras.applications.resnet50 import preprocess_input
 
+st.set_page_config(
+    page_title="Plant Disease Classifier",
+    page_icon="🌿",
+    layout="centered"
+)
+
 
 # =========================
 # Paths
@@ -87,12 +93,6 @@ def predict_image_class(model, image_file):
 # =========================
 # Streamlit UI
 # =========================
-
-st.set_page_config(
-    page_title="Plant Disease Classifier",
-    page_icon="🌿",
-    layout="centered"
-)
 
 st.title("🌿 Plant Disease Classifier")
 
