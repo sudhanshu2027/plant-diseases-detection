@@ -1,4 +1,4 @@
-# plant-disease-prediction-cnn-deep-leanring-project
+# plant-disease-prediction-cnn-deep-learning-project
 
 # 🌿 Plant Disease Detection using Deep Learning
 
@@ -21,7 +21,7 @@ https://github.com/sudhanshu2027/plant-diseases-detection
 
 ---
 
-# 📸 Demo
+# 📸 Application Demo
 
 Upload a plant leaf image and the model predicts the disease in real time.
 
@@ -44,13 +44,16 @@ Upload a plant leaf image and the model predicts the disease in real time.
 
 | Parameter | Value |
 |-----------|------|
-Model Type | Convolutional Neural Network (CNN)
-Framework | TensorFlow / Keras
-Optimizer | Adam
-Training Accuracy | **97%**
-Validation Accuracy | **96.5%**
-Dataset | PlantVillage Dataset
-Classes | 38
+| Model Type | Convolutional Neural Network (CNN) |
+| Framework | TensorFlow / Keras (Keras 3) |
+| Optimizer | Adam |
+| Training Accuracy | **97%** |
+| Validation Accuracy | **96.5%** |
+| Dataset | PlantVillage Dataset |
+| Classes | 38 |
+
+> [!TIP]
+> **Model Backup:** A backup of the trained model is available on [Google Drive](https://drive.google.com/file/d/1jhMS3HGidPxc3BUPwq4yphimqU_UrqeN/view?usp=drive_link).
 
 ---
 
@@ -58,8 +61,7 @@ Classes | 38
 
 ### Machine Learning / Deep Learning
 - Python
-- TensorFlow
-- Keras
+- TensorFlow / Keras
 - NumPy
 - Pillow
 
@@ -73,53 +75,59 @@ Classes | 38
 ```text
 plant-diseases-detection
 │
-├── assets
-│   └── demo.png
+├── .gitignore
+├── .python-version
+├── requirements.txt
+├── render.yaml
+├── README.md
 │
 ├── app
 │   ├── main.py
 │   ├── class_indices.json
-│   ├── requirements.txt
+│   ├── config.toml
+│   ├── credentials.toml
 │   └── trained_model
-│        └── plant_disease_prediction_model1.h5
+│        ├── plant_disease_prediction_model1.h5
+│        └── trained_model_link.txt
+│
+├── assets
+│   └── demo.png
 │
 ├── model_training_notebook
-│   └── plant_disease_detection.ipynb
+│   └── Plant_Disease_Prediction_CNN_Image_Classifier.ipynb
 │
-├── test_images
-│
-│
-├── README.md
-└── .gitignore
+└── test_images
 ```
 
 ---
 
 # 🧪 Dataset
 
-The model was trained using the **PlantVillage dataset**.
+The model was trained using the **PlantVillage Dataset**.
+
+Dataset: [PlantVillage Dataset](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset)
 
 ---
 
 # ⚙️ Installation
 
-Clone the repository
+Clone the repository:
 
 ```bash
 git clone https://github.com/sudhanshu2027/plant-diseases-detection.git
 cd plant-diseases-detection
 ```
 
-Install dependencies
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run the application
+Run the application locally:
 
 ```bash
-streamlit run main.py
+streamlit run app/main.py
 ```
 
 ---
@@ -137,11 +145,7 @@ streamlit run main.py
 
 **Sudhanshu Kumar**
 
-GitHub  
-https://github.com/sudhanshu2027
-
-LinkedIn  
-https://www.linkedin.com/in/sudhanshu2027/
+GitHub: [sudhanshu2027](https://github.com/sudhanshu2027)  
+LinkedIn: [sudhanshu2027](https://www.linkedin.com/in/sudhanshu2027/)
 
 ---
-

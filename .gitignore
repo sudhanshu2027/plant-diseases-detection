@@ -12,43 +12,36 @@ env/
 .venv/
 
 # ===============================
-# Dataset (very large)
+# IDEs & OS
 # ===============================
-**/model_training_notebook/plantvillage dataset/
-**/model_training_notebook/plantvillage-dataset*
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
 
 # ===============================
-# Kaggle API keys (sensitive)
+# Dataset & Large Files (Ignored for repo health)
+# ===============================
+**/plantvillage-dataset.zip
+**/plantvillage-dataset*
+*.h5
+*.keras
+
+# ===============================
+# Sensitive Files
 # ===============================
 kaggle.json
-
-# ===============================
-# Streamlit secrets
-# ===============================
 .streamlit/secrets.toml
 credentials.toml
 config.toml
 
 # ===============================
-# Notebook checkpoints
-# ===============================
-.ipynb_checkpoints/
-
-# ===============================
-# OS files
-# ===============================
-.DS_Store
-Thumbs.db
-
-# ===============================
-# Logs
+# Logs & Notebook Checkpoints
 # ===============================
 *.log
+.ipynb_checkpoints/
 
-
-#updated .gitignore file to ignore the dataset and notebook files
-model_training_notebook/
-test_images/
-test_images copy/
-plantvillage dataset/
-*.ipynb
+# Note: We do NOT ignore model_training_notebook/ entirely 
+# so that the .ipynb file can be tracked, while the large 
+# datasets inside it are ignored by the rules above.
