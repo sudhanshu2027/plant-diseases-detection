@@ -66,11 +66,6 @@ Classes | 38
 ### Web Application
 - Streamlit
 
-### Tools
-- Git
-- GitHub
-- Docker
-
 ---
 
 ## 📂 Project Structure
@@ -93,7 +88,7 @@ plant-diseases-detection
 │
 ├── test_images
 │
-├── Dockerfile
+│
 ├── README.md
 └── .gitignore
 ```
@@ -103,9 +98,6 @@ plant-diseases-detection
 # 🧪 Dataset
 
 The model was trained using the **PlantVillage dataset**.
-
-Dataset link:  
-https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset
 
 ---
 
@@ -153,4 +145,3 @@ https://www.linkedin.com/in/sudhanshu2027/
 
 ---
 
-⭐ If you like this project, consider giving it a **star on GitHub**.
