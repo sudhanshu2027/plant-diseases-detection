@@ -4,9 +4,10 @@ from PIL import Image
 
 import numpy as np
 import tensorflow as tf
+import tf_keras
 import streamlit as st
 
-from tensorflow.keras.applications.resnet50 import preprocess_input
+from tf_keras.applications.resnet50 import preprocess_input
 
 
 # =========================
@@ -26,7 +27,7 @@ class_indices_path = os.path.join(working_dir, "class_indices.json")
 
 @st.cache_resource
 def load_model():
-    return tf.keras.models.load_model(model_path)
+    return tf_keras.models.load_model(model_path, compile=False)
 
 model = load_model()
 
