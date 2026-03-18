@@ -45,15 +45,22 @@ Upload a plant leaf image and the model predicts the disease in real time.
 | Parameter | Value |
 |-----------|------|
 | Model Type | Convolutional Neural Network (CNN) |
-| Framework | TensorFlow / Keras (Keras 3) |
+| Backbone | ResNet50 (Transfer Learning) |
+| Framework | TensorFlow / Keras |
 | Optimizer | Adam |
-| Training Accuracy | **97%** |
-| Validation Accuracy | **96.5%** |
+| Loss Function | Categorical Crossentropy |
+| Training Accuracy | **97.96%** |
+| Validation Accuracy | **98.02%** |
+| F1 Score (Macro) | **97.24%** |
 | Dataset | PlantVillage Dataset |
 | Classes | 38 |
+| Training Images | 43,456 |
+| Validation Images | 10,849 |
+| Epochs | 11 |
+| Augmentation | Rotation, Zoom, Shift, Flip |
 
 > [!TIP]
-> **Model Backup:** A backup of the trained model is available on [Google Drive](https://drive.google.com/file/d/1jhMS3HGidPxc3BUPwq4yphimqU_UrqeN/view?usp=drive_link).
+> **Model Backup:** A backup of the trained model is available on [Google Drive]().
 
 ---
 
@@ -75,28 +82,22 @@ Upload a plant leaf image and the model predicts the disease in real time.
 ```text
 plant-diseases-detection
 │
-├── .gitignore
-├── .python-version
-├── requirements.txt
-├── render.yaml
 ├── README.md
 │
-├── app
+├── app/
 │   ├── main.py
 │   ├── class_indices.json
-│   ├── config.toml
-│   ├── credentials.toml
-│   └── trained_model
-│        ├── plant_disease_prediction_model1.h5
+│   └── trained_model/
+│        ├── plant_disease_prediction_model2.h5
 │        └── trained_model_link.txt
 │
-├── assets
+├── assets/
 │   └── demo.png
 │
-├── model_training_notebook
+├── model_training_notebook/
 │   └── Plant_Disease_Prediction_CNN_Image_Classifier.ipynb
 │
-└── test_images
+└── test_images/
 ```
 
 ---

@@ -25,7 +25,7 @@ st.set_page_config(
 working_dir = os.path.dirname(os.path.abspath(__file__))
 
 model_path = os.path.join(
-    working_dir, "trained_model", "plant_disease_prediction_model1.h5"
+    working_dir, "trained_model", "plant_disease_prediction_model2.h5"
 )
 
 class_indices_path = os.path.join(

@@ -24,7 +24,7 @@ Thumbs.db
 # Dataset & Large Files (Ignored for repo health)
 # ===============================
 **/plantvillage-dataset.zip
-**/plantvillage-dataset*
+**/plantvillage dataset*
 *.h5
 *.keras
 
