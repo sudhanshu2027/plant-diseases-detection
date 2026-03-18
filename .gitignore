@@ -25,7 +25,6 @@ Thumbs.db
 # ===============================
 **/plantvillage-dataset.zip
 **/plantvillage dataset*
-*.h5
 *.keras
 
 # ===============================
